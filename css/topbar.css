@@ -1,0 +1,66 @@
+#topbar{
+    background-color: tomato;
+    position: fixed;
+    float:left;
+    text-align: left;
+    width:100%;
+    height:40px;
+    padding: 0;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    z-index: 10;
+}
+
+.image{
+    float: left;
+    width: 25px;
+    margin-left: 80px;
+    margin-top: 5px;
+}
+
+.cart{
+    float:right;
+    height: 25px;
+    padding-right: 80px;
+}
+    
+.login{
+    float: left;
+    margin-top: 5px;
+    margin-left: 50vw;
+    padding: 0 5px;
+    font-size: 1em;
+    color: white;
+    border-radius: 10px;
+    border-style: solid;
+}
+    
+.signup{
+    float: left;
+    margin-top: 5px;
+    margin-left: 5px;
+    padding: 0 5px;
+    font-size: 1em;
+    color: white;
+    border-radius: 10px;
+    border-style: solid;
+}
+
+#backtotop{
+    position: fixed;
+    margin-top: 77vh;
+    margin-left: 80vw;
+    z-index: 9;
+}
+
+.title{
+    float: left;
+    margin-top: 5px;
+    position: relative;
+    color: mintcream;
+    font-size: 1em;
+    z-index: 1;
+    animation-name: moveinleft;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+}

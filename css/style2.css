@@ -1,0 +1,239 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+div{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    overflow-x: scroll;
+}
+
+.fixedwidth{
+    width:1200px;
+    margin:0 auto;
+    float: center;
+}
+
+.break{
+    clear: both;
+}
+
+.appliance-img{
+    border-radius: 1em;
+    margin-top: 0.8vw;
+    width: 46vw;
+}
+
+
+
+.searchbar{
+    padding-left: 10vw;
+    size: 1vw;
+}
+
+.topnav a {
+display: block;
+color: black;
+text-align: center;
+padding: 0 0;
+text-decoration: none;
+font-size: 1vw;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+background-color: #ddd;
+color: black;
+}
+
+/* Style the "active" element to highlight the current page */
+.topnav a.active {
+background-color: #2196F3;
+color: white;
+}
+
+/* Style the search box inside the navigation bar */
+.topnav input[type=text] {
+float: right;
+padding: 6vw;
+border: none;
+margin-top: 1vw;
+margin-right: 16vw;
+font-size: 17vw;
+}
+
+
+@keyframes moveinleft{
+    0%{
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+
+    80%{
+        transform: translate(5px);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+@keyframes moveinright{
+    0%{
+        opacity: 0;
+        transform: translateX(100px);
+    }
+
+    80%{
+        transform: translate(-5px);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+
+.unavailable{
+    position: absolute;
+    color: aliceblue;
+    font-size: 1.5em;
+    text-align: center;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+.mostbought{
+    color: gray;
+    text-align: center;
+    background-color: white;
+    border: double;
+    margin: 11.5vw 3.5vw 0 3.5px;
+    float: right;
+    transition: transform .2s;
+}
+
+.mostbought:hover {
+    -ms-transform: scale(1.3); /* IE 9 */
+    -webkit-transform: scale(1.3); /* Safari 3-8 */
+    transform: scale(1.3); 
+  }
+
+.new{
+    color: gray;
+    text-align: center;
+    background-color: white;
+    border: double;
+    margin: 7.78vw 7vw 0 0;
+    float: right;
+}
+
+.new1{
+    color: gray;
+    text-align: center;
+    background-color: white;
+    border: double;
+    margin: 7.78vw 5vw 0 0;
+    float: right;
+}
+
+
+
+.left{
+    float: left;
+    color: white;
+    font-weight: 500;
+    font-size: 1em;
+    text-align: left;
+    position: absolute;
+}
+
+.right{
+    float: right;
+    color: white;
+    font-weight: 500;
+    text-align: right;
+    margin-top: 13vw;
+    font-size: 1ems;
+    position: absolute;
+}
+
+.enlarge:hover{
+    transform: scale(1.5s);
+}
+
+.view-more{
+    text-align: center;
+    font-size: 18px;
+    margin-top: 2400vh;
+}
+
+
+.circle-container {
+    @include on-circle($item-count: 5, $circle-size: 20em, $item-size: 6em); 
+    margin: 5em auto 0;
+    border: solid 5px tomato;
+}
+    
+.imgnew { 
+    display: block; 
+    max-width: 100%; 
+    border-radius: 50%;
+    filter: grayscale(0);
+    border: solid 5px tomato;
+    transition: .15s;
+}
+      
+.imgnew:hover,
+.imgnew:active{
+        filter: grayscale(0);
+}
+
+.circle-container {
+    position: relative;
+    width: 24em;
+    height: 24em;
+    padding: 2.8em;
+    /*2.8em = 2em*1.4 (2em = half the width of a link with img, 1.4 = sqrt(2))*/
+    border: none;
+    border-radius: 50%;
+    margin: 0;
+}
+.circle-container a {
+    display: block;
+    position: absolute;
+    top: 50%; left: 50%;
+    width: 6em; height: 6em;
+    margin: -2em;
+    margin-top: 110vh;
+    margin-left: 20vw;
+}
+.circle-container img { display: block; width: 100%; }
+.deg0 { transform: translate(20em); } /* 12em = half the width of the wrapper */
+.deg72 { transform: rotate(72deg) translate(20em) rotate(-72deg); }
+.deg144 { transform: rotate(144deg) translate(20em) rotate(-144deg); }
+.deg216 { transform:rotate(216deg) translate(-20em) rotate(-216deg); }
+.deg288 { transform: rotate(288deg) translate(20em) rotate(-288deg); }
+
+.product-details{
+    font-size: 15px;
+    color: white;
+    text-emphasis-style: none;
+}

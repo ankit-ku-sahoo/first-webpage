@@ -1,0 +1,40 @@
+#footer{
+    height: 150px;
+    width: 100%;
+    background-image:linear-gradient(to right bottom, rgba(233, 116, 7, 0.7),rgba(189, 9, 9, 0.700));
+    background-size: cover;
+    background-position: left;
+    color: whitesmoke;
+    font-weight: 100;
+    font-size: 1vw;
+    text-align: center;
+    position: relative;
+    border-right-style: solid;
+    z-index: -2;
+    float: left;
+}
+
+.footer-left{
+    font-size: 2vw;
+    text-align: left;
+    display: block;
+    margin: 10px 50% 0 5vw;
+    border-right: solid;
+    color: whitesmoke;
+}
+
+.terms:link,
+.terms:visited{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.footer-right{
+    position: relative;
+    float: right;
+    font-size: 2vw;
+    text-align: right;
+    margin-left: 50%;
+    margin-right: 30px;
+    transform: translateY(-5vh);
+}

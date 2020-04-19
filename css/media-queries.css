@@ -1,0 +1,363 @@
+@import url("style2.css");
+@import url("topbar.css");
+@import url("header.css");
+@import url("intro.css");
+@import url("electronics.css");
+@import url("tv.css");
+@import url("clothing.css");
+@import url("furniture.css");
+@import url("books.css");
+@import url("surprises.css");
+@import url("launching-soon.css");
+@import url("reviews.css");
+@import url("footer.css");
+@import url("../SVG Animation/stylesvg.css");
+
+@media screen and (max-width:1000px){
+    .title{
+        font-size: 0.8em;
+    }
+    .login{
+        margin-left: 29vw;
+        font-size: 0.8em;
+    }
+    .signup{
+        font-size: 0.8em;
+    }
+    .cart{
+        margin-top: 1px;
+        padding-right: 50px;
+    }
+
+    .categories{
+        font-size: 0.5em;
+        height: 25px;
+    }
+
+
+    #intro{
+        height: 1006px;
+    }
+
+
+    .mostbought{
+        display: block;
+        margin: 10px;
+    }
+    .product-img{
+        width: 135px;
+    }
+    .product-details{
+        font-size: 0.7em;
+    }
+    .right5{
+        margin-top: 110vh;
+        margin-right: 20px;
+    }
+    #electronics{
+        height: 750px;
+        clip-path: polygon(0 0, 100% 0, 100% 600px, 50% 750px, 0 600px);
+    }
+    .circle-container a{
+        float: right;
+        margin-left: 10vw;
+        margin-top: 1040px;
+        left: 75%;
+    }
+    .deg0 { transform: translate(15em); } /* 12em = half the width of the wrapper */
+    .deg72 { transform: rotate(72deg) translate(15em) rotate(-72deg); }
+    .deg144 { transform: rotate(144deg) translate(15em) rotate(-144deg); }
+    .deg216 { transform:rotate(216deg) translate(-15em) rotate(-216deg); }
+    .deg288 { transform:rotate(288deg) translate(-15em) rotate(-288deg); }
+
+    
+    #tv{
+        height: 750px;
+        clip-path: polygon(0 0, 100% 0, 100% 600px, 50% 750px, 0 600px);
+    }
+    .circle-container1 a{
+        margin-left: 10vw;
+        margin-top: 1420px;
+        left: 75%;
+    }
+
+    #clothing{
+        height: 750px;
+        clip-path: polygon(0 0, 100% 0, 100% 600px, 50% 750px, 0 600px);
+    }
+    .circle-container2 a{
+        margin-left: 10vw;
+        margin-top: 1770px;
+        left: 75%;
+    }
+
+    #furniture{
+        height: 750px;
+        clip-path: polygon(0 0, 100% 0, 100% 600px, 50% 750px, 0 600px);
+    }    
+    .circle-container3 a{
+        margin-left: 10vw;
+        margin-top: 2150px;
+        left: 75%;
+    }
+
+    #books{
+        height: 750px;
+        clip-path: polygon(0 0, 100% 0, 100% 600px, 50% 750px, 0 600px);
+    }
+    .circle-container4 a{
+        margin-left: 10vw;
+        margin-top: 2500px;
+        left: 75%;
+    }
+
+    #surprises{
+        height: 750px;
+        clip-path: polygon(0 0, 100% 0, 100% 600px, 50% 750px, 0 600px);
+    }
+    .images{
+        width: 140px;
+    }
+    
+    #launchingsoon{
+        height: 650px;
+    }
+    .img1,.img2,.img3,.img4,.img5{
+        height: 100px;
+    }
+
+    #reviews{
+        height: 950px;
+        font-size: 15px;
+    }
+    .footer-right{
+        margin-top: 10px;
+    }
+}
+
+
+
+@media screen and (max-width:800px){
+    .circle-container a,.circle-container1 a,.circle-container2 a,.circle-container3 a,.circle-container4 a{
+        left: 56%;
+    }
+}
+
+
+
+@media screen and (max-width:600px){
+    body{
+        display: block;
+    }
+
+
+    #topbar{
+        height: 30px;
+        margin:0;
+        padding: 0;
+
+    }
+    .image{
+        width: 15px;
+        margin: 5px 0 0 0;
+    }
+    .title{
+        font-size: 0.6em;
+        transform: translateY(-5px);
+    }
+    .login{
+        margin-left: 30vw !important;
+        font-size: 0.6em;
+        transform: translateY(-4px);
+        text-align: right;
+    }
+    .signup{
+        font-size: 0.6em;
+        transform: translateY(-4px);
+        text-align: right;
+    }
+    .cart{
+        margin-top: 2px;
+        margin-right: 0px;
+        padding: 1px;
+    }
+    
+
+    .categories{
+        margin-top: 30px;
+        height: 15px;
+        font-size: 0.2em;
+    }
+    .categories-tab{
+        padding: 0 0.3px;
+    }
+
+
+    #intro{
+        height: 500px;
+    }
+    .svg-animation{
+        width: 50%;
+        margin-top: 100px ;
+    }
+    .heading-primary-main{
+        font-size: 20px;
+        text-shadow: black;
+        letter-spacing: 10px;
+    }
+    .heading-primary-sub{
+        margin-top: 30px;
+        font-size: 15px;
+        letter-spacing: 5px;
+        font-weight: 400;
+    }
+    .btn{
+        margin-top: 30px;
+    }
+
+
+    #electronics{
+        height: 500px;
+        clip-path: polygon(0 0, 100% 0, 100% 350px, 50% 500px, 0 350px);
+    }
+    .left{
+        font-size: 0.6em;
+    }
+    .right{
+        font-size: 0.6em;
+    }
+    .mostbought{
+        display: block;
+        margin: 7px;
+    }
+    .product-img{
+        width: 65px;
+    }
+    .product-details{
+        font-size: 0.5em;
+    }
+    .right5{
+        margin-top: 70vh;
+    }
+    .circle-container a{
+        margin-left: 0;
+        margin-top: 430px;
+        left: 55%;
+    }
+    .deg0 { transform: translate(9em); } /* 12em = half the width of the wrapper */
+    .deg72 { transform: rotate(72deg) translate(9em) rotate(-72deg); }
+    .deg144 { transform: rotate(144deg) translate(9em) rotate(-144deg); }
+    .deg216 { transform:rotate(216deg) translate(-9em) rotate(-216deg); }
+    .deg288 { transform:rotate(288deg) translate(-9em) rotate(-288deg); }
+
+
+    #tv{
+        height: 500px;
+        clip-path: polygon(0 0, 100% 0, 100% 350px, 50% 500px, 0 350px);
+    }
+    .left{
+        font-size: 0.6em;
+    }
+    .right{
+        font-size: 0.6em;
+    }
+    .circle-container1 a{
+        margin-left: 0;
+        margin-top: 540px;
+        left: 55%;
+    }
+    
+
+    #clothing{
+        height: 500px;
+        clip-path: polygon(0 0, 100% 0, 100% 350px, 50% 500px, 0 350px);
+    }
+    .circle-container2 a{
+        margin-left: 0;
+        margin-top: 655px;
+        left: 55%;
+    }
+
+
+    #furniture{
+        height: 500px;
+        clip-path: polygon(0 0, 100% 0, 100% 350px, 50% 500px, 0 350px);
+    }
+    .circle-container3 a{
+        margin-left: 0;
+        margin-top: 775px;
+        left: 55%;
+    }
+
+
+    #books{
+        height: 500px;
+        clip-path: polygon(0 0, 100% 0, 100% 350px, 50% 500px, 0 350px);
+    }
+    .circle-container4 a{
+        margin-left: 0;
+        margin-top: 890px;
+        left: 55%;
+    }
+
+
+    #surprises{
+        height: 500px;
+        font-size: 15px;
+        clip-path: polygon(0 0, 100% 0, 100% 350px, 50% 500px, 0 350px);
+    }
+    .images,.images1{
+        width: 100px;
+        height: 100px;
+    }
+    .filp-card,
+    .flip-card1{
+        width: 100px;
+        height: 100px;
+    }
+
+    
+    #launchingsoon{
+        height: 500px;
+    }
+    .img1,.img2,.img3,.img4,.img5{
+        height: 73.5px;
+        margin: 25px;
+    }
+    
+    
+    #reviews{
+        font-size: 10px;
+        height: 850px;
+    }
+
+    #footer{
+        height: 40px;
+    }
+    .footer-right{
+        font-size: 8px;
+        margin-top: 25px;
+    }
+    .footer-left{
+        font-size: 8px;
+    }
+    .image{
+        width: 12px;
+        text-align: right;
+        transform: translateY(-6px);
+        margin-left: 60px;
+    }
+}
+
+
+@media screen and (max-width:500px){
+    .circle-container a,.circle-container1 a,.circle-container2 a,.circle-container3 a,.circle-container4 a{
+        left: 42%;
+    }
+}
+
+@media screen and (max-width:400px){
+    .circle-container a,.circle-container1 a,.circle-container2 a,.circle-container3 a,.circle-container4 a{
+        left: 30%;
+    }
+}

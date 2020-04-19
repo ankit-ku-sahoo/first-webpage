@@ -1,0 +1,135 @@
+#reviews{
+    height: 1020px;
+    width: 100%;
+    background-image:url(../images/astronomy-dark-dawn-dusk-573238.jpg);
+    background-size: cover;
+    padding: 1.56vw 1.56vw 7vw 1.56vw;
+    background-position: left;
+    color: whitesmoke;
+    font-weight: 100;
+    font-size: 18px;
+    text-align: center;
+    position: relative;
+    margin-left: 0.2vw;
+    border-right-style: solid;
+    z-index: -2;
+    float: right;
+}
+
+.rev{
+    height: 105px;
+    border-style: solid;
+    width: 90vw;
+    object-fit: contain;
+    background-color: rgba(255, 255, 255, 0.301);
+}
+
+.photo{
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    border-radius: 100px;
+
+}
+
+.flip-card5 {
+    background-color: transparent;
+    width: 80px;
+    height: 80px;
+    perspective: 1000px;
+    margin-left: 20px;
+    margin-top: 10px;
+    float: left;
+  }
+  
+  .flip-card5-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+  }
+  
+  .flip-card5:hover .flip-card5-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card5-front, .flip-card5-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card5-front {
+      
+    background-color: rgba(255, 255, 255, 0);
+    color: black;
+  }
+  
+  .flip-card5-back {
+    padding-top: 40%;
+    border-radius: 100px;
+    background-color: royalblue;
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+.review{
+    padding-left: 10vw;
+    padding-right: 1vw;
+    text-align: right;
+}
+
+.heading{
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
+.review-tab{
+    margin-top: 7vh;
+    width: 80vw;
+    height: 150px;
+    font-size: 2em;
+    background-color: rgba(240, 248, 255, 0.300);
+}
+
+.name{
+    width: 80vw;
+    height: 30px;
+    text-align: center;
+    background-color: rgba(240, 248, 255, 0.300);
+    font-size: 18px;
+}
+.name ::placeholder{
+    color: black;
+}
+
+.submit-btn{
+    text-align: center;
+    padding: 5px;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+.submit-btn:link,
+.submit-btn:visited{
+    text-decoration: none;
+    color: black;
+}
+.submit-btn:hover{
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.200);
+}
+
+.submit-btn:active{
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.200);
+}
+
+#review-entry{
+    background-image: url(images/Pexels Videos 1409899.mp4);
+    padding: 10px;
+    border: solid;
+}

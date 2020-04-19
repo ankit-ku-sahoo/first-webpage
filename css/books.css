@@ -1,0 +1,60 @@
+#books{
+    height: 1006px;
+    width: 100%;
+    background-image:linear-gradient(to right, rgba(170, 42, 42, 0.801),rgba(109, 0, 0, 0.801)), url(../images/books-in-black-wooden-book-shelf-159711.jpg);
+    background-size: cover;
+    clip-path: polygon(0 0, 100% 0, 100% 805px, 50% 1006px, 0 805px);
+    padding: 1.56vw 1.56vw 7vw 1.56vw;
+    background-position: left;
+    color: whitesmoke;
+    font-weight: 500;
+    font-size: 3em;
+    text-align: left;
+    position: relative;
+    border-right-style: solid;
+    z-index: -2;
+    float: left;
+}
+
+.right4{
+    float: right;
+    color: white;
+    font-weight: 100;
+    font-size: 1em;
+    text-align: right;
+    position: absolute;
+    margin-left: 55vw;
+    margin-top: 580vh;
+}
+
+.circle-container4 {
+    position: relative;
+    width: 24em;
+    height: 24em;
+    padding: 2.8em;
+    /*2.8em = 2em*1.4 (2em = half the width of a link with img, 1.4 = sqrt(2))*/
+    border: none;
+    border-radius: 50%;
+    margin: 0;
+}
+.circle-container4 a {
+    display: block;
+    position: absolute;
+    top: 50%; left: 50%;
+    width: 6em; height: 6em;
+    margin: -2em;
+    margin-top: 3700px;
+    margin-left: 30vw;
+}
+.circle-container4 img { display: block; width: 100%; }
+.deg0 { transform: translate(20em); } /* 12em = half the width of the wrapper */
+.deg72 { transform: rotate(72deg) translate(20em) rotate(-72deg); }
+.deg144 { transform: rotate(144deg) translate(20em) rotate(-144deg); }
+.deg216 { transform:rotate(216deg) translate(-20em) rotate(-216deg); }
+.deg288 { transform: rotate(288deg) translate(20em) rotate(-288deg); }
+
+.circle-container4 a:hover{
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+}
